@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
   },
   upper: {
-    flex: 1,
+    flex: 3,
   },
   lower: {
     flex: 1,
@@ -59,14 +59,16 @@ const styles = StyleSheet.create({
   },
   button: {
     backgroundColor: '#007AFF',
+    width: 400,
     paddingVertical: 12,
     paddingHorizontal: 20,
-    borderRadius: 25,
+    borderRadius: 10,
   },
   buttonText: {
     color: 'white',
     fontSize: 18,
     fontWeight: 'bold',
+    textAlign: 'center'
   },
 });
 
